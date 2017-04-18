@@ -1,0 +1,9 @@
+<article class="artist-list">
+  <h3>{{ artist.name }}</h3>
+  <img src="{{ artist.cover }}" alt="{{ artist.name }}">
+  <ul>
+    {#each artist.songs }
+    <li>Song: {{ song }}</li>
+    {/each}
+  </ul>
+</article> <!-- /.artist-list -->

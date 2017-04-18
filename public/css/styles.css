@@ -1,0 +1,53 @@
+a:hover,
+a:focus {
+  transition: all 300ms ease-in-out;
+}
+body {
+  font-family: 'Questrial', sans-serif;
+}
+header.header {
+  background: #2c3840;
+  padding: 3vh 0;
+}
+.logo a {
+  color: white;
+}
+.logo a:hover,
+.logo a:focus {
+  color: #1779ba;
+}
+.logo:hover + h2,
+.logo:focus + h2 {
+  transform: scale(1.2);
+  transition: all 300ms ease-in-out;
+}
+.logo {
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  margin: 0;
+  line-height: 1;
+}
+
+header h2 {
+  color: white;
+  display: inline-block;
+  font-size: smaller;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+
+.page-content {
+  min-height: calc(100vh - 195px);
+  padding: 3rem 0;
+}
+
+footer {
+  background: #2c3840;
+  color: #fff;
+  padding: 2.5vh 0;
+  text-align: center;
+}
+footer p { margin: 0;}
